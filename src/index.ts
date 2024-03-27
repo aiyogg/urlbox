@@ -4,7 +4,7 @@ import type { BrowserWorker } from '@cloudflare/puppeteer'
 
 type Bindings = {
   MYBROWSER: BrowserWorker;
-	BROWSER_KV_URLBOX: KVNamespace;
+  BROWSER_KV_URLBOX: KVNamespace;
 }
 
 const app = new Hono<{ Bindings: Bindings }>()
