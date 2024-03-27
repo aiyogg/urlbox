@@ -1,12 +1,17 @@
 name = "urlbox"
+main = "src/index.ts"
 compatibility_date = "2023-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+browser = { binding = "MYBROWSER" }
+
+[[kv_namespaces]]
+binding = "BROWSER_KV_URLBOX"
+id = "47436b9677864830b9593d6f002ece81"
+preview_id = "4f577300c1e9429e9fa675beb8a7d075"
 
 # [vars]
 # MY_VAR = "my-variable"
-
-# [[kv_namespaces]]
-# binding = "MY_KV_NAMESPACE"
-# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # [[r2_buckets]]
 # binding = "MY_BUCKET"
